@@ -1,0 +1,21 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.10.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm uninstall expo-cli
+7 verbose argv "uninstall" "--global" "expo-cli"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-05-01T19_38_21_943Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-05-01T19_38_21_943Z-debug-0.log
+10 silly packumentCache heap:499122176 maxSize:124780544 maxEntrySize:62390272
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose cwd /data/data/com.termux/files/home
+16 verbose os Linux 5.4.276-android12-9-660519-g65a797a943d7-ab794
+17 verbose node v23.10.0
+18 verbose npm  v10.9.2
+19 verbose exit 0
+20 info ok

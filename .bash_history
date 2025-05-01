@@ -36,3 +36,5 @@ return ( <div className="p-4 max-w-xl mx-auto"> <h1 className="text-xl font-bold
 {orderSummary && (     <Card className="mt-6">
 </div>
 ); }
+pkg update && pkg upgrade
+pkg install -y git openjdk-17 gradle wget

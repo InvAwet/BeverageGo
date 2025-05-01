@@ -1,3 +1,15 @@
 [user]
 	name = InvAwet
-	email = your-email@example.com
+	email = "InvAwet@github.com\ngit add .\n# Or for specific files:\n# git add file1.txt file2.js\ngit config --global user.email InvAwet@github.com"
+[credential "https://github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/data/data/com.termux/files/usr/bin/gh auth git-credential
+[init]
+	defaultBranch = main
+[safe]
+	directory = /storage/emulated/0/Download/BeverageGo
+[core]
+	editor = nano

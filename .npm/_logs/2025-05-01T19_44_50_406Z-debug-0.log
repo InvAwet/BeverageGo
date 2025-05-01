@@ -1,0 +1,138 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.10.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/bevhustle-app/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-05-01T19_44_50_406Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-05-01T19_44_50_406Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:499122176 maxSize:124780544 maxEntrySize:62390272
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @expo/vector-icons@^14.1.0
+16 silly packumentCache full:https://registry.npmmirror.com/@expo%2fvector-icons cache-miss
+17 http fetch GET https://registry.npmmirror.com/@expo%2fvector-icons attempt 1 failed with ENOTFOUND
+18 http fetch GET 200 https://registry.npmmirror.com/@expo%2fvector-icons 37364ms attempt #2 (cache miss)
+19 silly packumentCache full:https://registry.npmmirror.com/@expo%2fvector-icons set size:26055 disposed:false
+20 silly fetch manifest expo-font@~13.3.0
+21 silly packumentCache full:https://registry.npmmirror.com/expo-font cache-miss
+22 http fetch GET 200 https://registry.npmmirror.com/expo-font 2998ms (cache miss)
+23 silly packumentCache full:https://registry.npmmirror.com/expo-font set size:70974 disposed:false
+24 silly fetch manifest expo@~53.0.4
+25 silly packumentCache full:https://registry.npmmirror.com/expo cache-miss
+26 http fetch GET 200 https://registry.npmmirror.com/expo 24107ms (cache miss)
+27 silly packumentCache full:https://registry.npmmirror.com/expo set size:384091 disposed:false
+28 silly fetch manifest @expo/dom-webview@*
+29 silly packumentCache full:https://registry.npmmirror.com/@expo%2fdom-webview cache-miss
+30 http fetch GET 200 https://registry.npmmirror.com/@expo%2fdom-webview 2027ms (cache miss)
+31 silly packumentCache full:https://registry.npmmirror.com/@expo%2fdom-webview set size:19568 disposed:false
+32 silly fetch manifest react@19.0.0
+33 silly packumentCache full:https://registry.npmmirror.com/react cache-miss
+34 http fetch GET 200 https://registry.npmmirror.com/react 69569ms (cache miss)
+35 silly packumentCache full:https://registry.npmmirror.com/react set size:1037844 disposed:false
+36 silly fetch manifest react-native@0.79.1
+37 silly packumentCache full:https://registry.npmmirror.com/react-native cache-miss
+38 http fetch GET 200 https://registry.npmmirror.com/react-native 95201ms (cache miss)
+39 silly packumentCache full:https://registry.npmmirror.com/react-native set size:1509383 disposed:false
+40 silly fetch manifest @types/react@~19.0.10
+41 silly packumentCache full:https://registry.npmmirror.com/@types%2freact cache-miss
+42 http fetch GET 200 https://registry.npmmirror.com/@types%2freact 21483ms (cache miss)
+43 silly packumentCache full:https://registry.npmmirror.com/@types%2freact set size:301962 disposed:false
+44 silly fetch manifest @expo/metro-runtime@*
+45 silly packumentCache full:https://registry.npmmirror.com/@expo%2fmetro-runtime cache-miss
+46 http fetch GET 200 https://registry.npmmirror.com/@expo%2fmetro-runtime 4603ms (cache miss)
+47 silly packumentCache full:https://registry.npmmirror.com/@expo%2fmetro-runtime set size:64004 disposed:false
+48 silly fetch manifest react-native-webview@13.13.5
+49 silly packumentCache full:https://registry.npmmirror.com/react-native-webview cache-miss
+50 http fetch GET 200 https://registry.npmmirror.com/react-native-webview 8078ms (cache miss)
+51 silly packumentCache full:https://registry.npmmirror.com/react-native-webview set size:137124 disposed:false
+52 silly fetch manifest @react-navigation/bottom-tabs@^7.3.10
+53 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2fbottom-tabs cache-miss
+54 http fetch GET 200 https://registry.npmmirror.com/@react-navigation%2fbottom-tabs 5800ms (cache miss)
+55 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2fbottom-tabs set size:109578 disposed:false
+56 silly fetch manifest @react-navigation/native@^7.1.6
+57 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2fnative cache-miss
+58 http fetch GET 200 https://registry.npmmirror.com/@react-navigation%2fnative 6437ms (cache miss)
+59 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2fnative set size:108599 disposed:false
+60 silly fetch manifest react-native-safe-area-context@5.3.0
+61 silly packumentCache full:https://registry.npmmirror.com/react-native-safe-area-context cache-miss
+62 http fetch GET 200 https://registry.npmmirror.com/react-native-safe-area-context 3998ms (cache miss)
+63 silly packumentCache full:https://registry.npmmirror.com/react-native-safe-area-context set size:79475 disposed:false
+64 silly fetch manifest react-native-screens@~4.10.0
+65 silly packumentCache full:https://registry.npmmirror.com/react-native-screens cache-miss
+66 http fetch GET 200 https://registry.npmmirror.com/react-native-screens 6998ms (cache miss)
+67 silly packumentCache full:https://registry.npmmirror.com/react-native-screens set size:110793 disposed:false
+68 silly fetch manifest @react-navigation/elements@^2.3.8
+69 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2felements cache-miss
+70 http fetch GET 200 https://registry.npmmirror.com/@react-navigation%2felements 3068ms (cache miss)
+71 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2felements set size:67169 disposed:false
+72 silly fetch manifest @react-native-masked-view/masked-view@>= 0.2.0
+73 silly packumentCache full:https://registry.npmmirror.com/@react-native-masked-view%2fmasked-view cache-miss
+74 http fetch GET 200 https://registry.npmmirror.com/@react-native-masked-view%2fmasked-view 1255ms (cache miss)
+75 silly packumentCache full:https://registry.npmmirror.com/@react-native-masked-view%2fmasked-view set size:9684 disposed:false
+76 silly fetch manifest expo-blur@~14.1.4
+77 silly packumentCache full:https://registry.npmmirror.com/expo-blur cache-miss
+78 http fetch GET 200 https://registry.npmmirror.com/expo-blur 7314ms (cache miss)
+79 silly packumentCache full:https://registry.npmmirror.com/expo-blur set size:60337 disposed:false
+80 silly fetch manifest expo-constants@~17.1.4
+81 silly packumentCache full:https://registry.npmmirror.com/expo-constants cache-miss
+82 http fetch GET 200 https://registry.npmmirror.com/expo-constants 5853ms (cache miss)
+83 silly packumentCache full:https://registry.npmmirror.com/expo-constants set size:84211 disposed:false
+84 silly fetch manifest expo-haptics@~14.1.4
+85 silly packumentCache full:https://registry.npmmirror.com/expo-haptics cache-miss
+86 http fetch GET 200 https://registry.npmmirror.com/expo-haptics 3875ms (cache miss)
+87 silly packumentCache full:https://registry.npmmirror.com/expo-haptics set size:55268 disposed:false
+88 silly fetch manifest expo-image@~2.1.6
+89 silly packumentCache full:https://registry.npmmirror.com/expo-image cache-miss
+90 http fetch GET 200 https://registry.npmmirror.com/expo-image 6313ms (cache miss)
+91 silly packumentCache full:https://registry.npmmirror.com/expo-image set size:84232 disposed:false
+92 silly fetch manifest react-native-web@~0.20.0
+93 silly packumentCache full:https://registry.npmmirror.com/react-native-web cache-miss
+94 http fetch GET 200 https://registry.npmmirror.com/react-native-web 8876ms (cache miss)
+95 silly packumentCache full:https://registry.npmmirror.com/react-native-web set size:131069 disposed:false
+96 silly fetch manifest react-dom@19.0.0
+97 silly packumentCache full:https://registry.npmmirror.com/react-dom cache-miss
+98 http fetch GET 200 https://registry.npmmirror.com/react-dom 70412ms (cache miss)
+99 silly packumentCache full:https://registry.npmmirror.com/react-dom set size:1147224 disposed:false
+100 silly fetch manifest expo-linking@~7.1.4
+101 silly packumentCache full:https://registry.npmmirror.com/expo-linking cache-miss
+102 http fetch GET 200 https://registry.npmmirror.com/expo-linking 5400ms (cache miss)
+103 silly packumentCache full:https://registry.npmmirror.com/expo-linking set size:59772 disposed:false
+104 silly fetch manifest expo-router@~5.0.3
+105 silly packumentCache full:https://registry.npmmirror.com/expo-router cache-miss
+106 http fetch GET 200 https://registry.npmmirror.com/expo-router 12541ms (cache miss)
+107 silly packumentCache full:https://registry.npmmirror.com/expo-router set size:163698 disposed:false
+108 silly fetch manifest @react-navigation/drawer@^7.3.9
+109 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2fdrawer cache-miss
+110 http fetch GET 200 https://registry.npmmirror.com/@react-navigation%2fdrawer 8464ms (cache miss)
+111 silly packumentCache full:https://registry.npmmirror.com/@react-navigation%2fdrawer set size:116286 disposed:false
+112 silly fetch manifest react-native-gesture-handler@~2.24.0
+113 silly packumentCache full:https://registry.npmmirror.com/react-native-gesture-handler cache-miss
+114 http fetch GET 200 https://registry.npmmirror.com/react-native-gesture-handler 4056ms (cache miss)
+115 silly packumentCache full:https://registry.npmmirror.com/react-native-gesture-handler set size:73696 disposed:false
+116 silly fetch manifest react-native-reanimated@~3.17.4
+117 silly packumentCache full:https://registry.npmmirror.com/react-native-reanimated cache-miss
+118 http fetch GET 200 https://registry.npmmirror.com/react-native-reanimated 39000ms (cache miss)
+119 silly packumentCache full:https://registry.npmmirror.com/react-native-reanimated set size:651385 disposed:false
+120 silly fetch manifest @babel/core@^7.25.2
+121 silly packumentCache full:https://registry.npmmirror.com/@babel%2fcore cache-miss
+122 http fetch GET 200 https://registry.npmmirror.com/@babel%2fcore 7475ms (cache miss)
+123 silly packumentCache full:https://registry.npmmirror.com/@babel%2fcore set size:100235 disposed:false
+124 silly fetch manifest expo-splash-screen@~0.30.7
+125 silly packumentCache full:https://registry.npmmirror.com/expo-splash-screen cache-miss
+126 http fetch GET https://registry.npmmirror.com/expo-splash-screen attempt 1 failed with ECONNABORTED
+127 http fetch GET https://registry.npmmirror.com/expo-splash-screen attempt 2 failed with ENOTFOUND
+128 http fetch GET https://registry.npmmirror.com/expo-splash-screen attempt 3 failed with ENOTFOUND
+129 silly fetch manifest expo-status-bar@~2.2.3
+130 silly packumentCache full:https://registry.npmmirror.com/expo-status-bar cache-miss
+131 http fetch GET https://registry.npmmirror.com/expo-status-bar attempt 1 failed with ENOTFOUND
+132 http fetch GET https://registry.npmmirror.com/expo-status-bar attempt 2 failed with ENOTFOUND
+133 http fetch GET https://registry.npmmirror.com/expo-status-bar attempt 3 failed with ENOTFOUND
+134 silly fetch manifest expo-symbols@~0.4.4
+135 silly packumentCache full:https://registry.npmmirror.com/expo-symbols cache-miss
+136 http fetch GET https://registry.npmmirror.com/expo-symbols attempt 1 failed with ENOTFOUND
+137 http fetch GET https://registry.npmmirror.com/expo-symbols attempt 2 failed with ENOTFOUND
